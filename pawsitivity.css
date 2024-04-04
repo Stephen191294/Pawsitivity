@@ -18,12 +18,26 @@ header{
 
 }
 
+.first-section-button{
+  width: 200px;
+  height: 40px;
+  background-color: #99ffcc;
+  color: green;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
 .first-section-heading{
   font-size: 50px;
   font-weight: 200;
   color: #006bb3;
 }
 
+.first-section-txt{
+  font-size: 18px;
+}
 
 
 
@@ -52,6 +66,7 @@ header{
   height: 40px;
   border-radius: 20px;
   border:none;
+  cursor: pointer;
 }
 
 .header-link-container{
