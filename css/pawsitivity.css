@@ -89,13 +89,52 @@ h1{
 .first-section-heading{
   font-size: 60px;
   font-weight: 200;
-  color: #006bb3;
+  color:  #004d80;
 }
 
 .first-section-txt{
   font-size: 25px;
 }
 
+.forth-section-cat-container{
+  width: 200px;
+}
+
+.forth-section-cat{
+  width:100%
+}
+
+.forth-section-dog-container{
+  width: 200px;
+}
+
+.forth-section-dog{
+  width: 100%;
+}
+
+.forth-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: #004d80;
+}
+
+.forth-section-heading{
+  color:#fff;
+  font-size: 35px;
+}
+
+.forth-section-btn{
+  width: 300px;
+  height: 50px;
+  background-color: #99ffcc;
+  color: green;
+  border-radius: 25px;
+  border: none;
+}
+
+.forth-section-text{
+  color:#fff;
+}
 
 
 .header-container{
@@ -118,7 +157,7 @@ h1{
 }
 
 .header-button{
-  background-color:  #006bb3;
+  background-color:  #004d80;
   color: #fff;
   width: 95px;
   height: 40px;
@@ -141,7 +180,7 @@ h1{
 
 .header-link-1{
   font-size: 18px;
-  color: #006bb3;
+  color: #004d80;
   margin-right: 40px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -157,7 +196,7 @@ h1{
 }
 
 .third-section{
-  height: 900px;
+  height: 600px;
   margin-top: 5%;
   padding: 60px;
   display: flex;
@@ -176,7 +215,7 @@ h1{
 }
 
 .third-section-heading{
-  color: #006bb3;
+  color: #004d80;
 }
 
 .third-section-link{
