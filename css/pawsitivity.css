@@ -20,8 +20,8 @@ header{
   border-bottom: 2px solid #66c2ff;
   padding-top: 22px;
   padding-bottom: 22px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h1{
@@ -50,10 +50,12 @@ h1{
   margin-bottom: 10px;
 }
 
+/* pet vaccination box*/
 .col-md-2{
   border: 1px solid #66c2ff;
   height: 260px;
   width: 235px;
+  padding-bottom: 10px;
   border-radius: 5px;
   
   
@@ -70,10 +72,13 @@ h1{
  
 }
 
+/* pet nutrition box*/
+
 .col-md-4{
   border: 1px solid #66c2ff;
   height: 260px;
   width: 235px;
+  padding-bottom: 10px;
   border-radius: 5px;
 
 }
@@ -83,7 +88,7 @@ h1{
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  padding: 22px;
+  padding: 70px;
   justify-content: space-between;
 
 }
@@ -133,6 +138,8 @@ h1{
   justify-content: space-between;
   background-color: #004d80;
   height: 250px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .forth-section-heading{
@@ -155,6 +162,9 @@ h1{
   color: green;
   border-radius: 25px;
   border: none;
+  margin-left: 55px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .forth-section-btn-text-container{
@@ -163,7 +173,10 @@ h1{
 
 .forth-section-text{
   color:#fff;
+  margin-left: 40px;
 }
+
+
 
 .footer-container{
 
@@ -189,6 +202,8 @@ h1{
 .footer-links{
   text-decoration: none;
   color: black;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 .footer-container-3{
@@ -258,19 +273,20 @@ h1{
 .third-section{
   height: 600px;
   margin-top: 5%;
-  padding: 60px;
+  padding: 70px;
   display: flex;
   justify-content: space-between;
 }
 
 .third-section-button{
-  background-color:  #006bb3;
+  background-color:  #004d80;
   color: #fff;
   margin-top: 20px;
-  height: 40px;
-  width: 150px;
-  border-radius: 20px;
+  height: 60px;
+  width: 180px;
+  border-radius: 30px;
   border: none;
+  font-size: 25px;
   cursor: pointer;
 }
 
