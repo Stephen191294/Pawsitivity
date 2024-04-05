@@ -13,6 +13,13 @@ header{
   padding-right: 35px;
 }
 
+
+.box-container{
+  display: flex;
+  
+}
+
+
 .first-section{
   box-sizing: border-box;
   display: flex;
@@ -61,6 +68,7 @@ header{
 .header-logo{
   height: 100%;
   width: 100%;
+  cursor: pointer;
 }
 
 .header-button{
@@ -82,6 +90,7 @@ header{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   margin-right: 40px;
+  cursor: pointer;
 }
 
 .header-link-1{
@@ -90,6 +99,7 @@ header{
   margin-right: 40px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
+  cursor: pointer;
 
 }
 
@@ -100,6 +110,25 @@ header{
   padding: auto;
 }
 
+.third-section{
+  height: 900px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-section-button{
+  background-color:  #006bb3;
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+}
+
+.third-section-heading{
+  color: #006bb3;
+}
 
 @media (max-width: 800px){
 
